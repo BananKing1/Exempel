@@ -1,2 +1,2 @@
 # Exempel
-Rally
+Webbsida med Chat GPT
