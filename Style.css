@@ -1,0 +1,390 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+
+
+
+.Header {
+    width: 100%;    height: 100%;
+    background-color: #005F9E;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header .logoandname{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    align-items: center;
+    align-content: center;
+    font-size: 30px;
+}
+
+.Header img{
+    width: 100px;   height: 100px;
+    margin: 2%;
+
+    border-radius: 100%;
+}
+
+.Header nav {
+    background-color: #00A8E8;
+    width: 100%;    height: auto;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.Header nav a {
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #333333;
+}
+
+
+
+button {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    background-color: #28A745;
+    color: #F5F5F5;
+    border: none;
+    padding: 10px 20px 10px 20px;
+}
+
+
+
+.Hero_Section {
+    width: 100%;    height: 600px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+
+    font-size: 20px;
+    background-image: url("Hero_Section.webp");
+}
+
+.Hero_Section h1{  
+    color: black; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #00A8E8;
+}
+
+.Hero_Section h3{
+    color: black; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #00A8E8;
+}
+
+.kontaktaoss {
+    width: 100%;    height: auto;
+    background-color: #005F9E;
+    margin-top: 5%;
+    padding: 3%;    padding-left: 17%;  padding-right: 17%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.kontaktaoss input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.kontaktaoss input[type=submit] {
+    width: 100%;
+    background-color: #28A745;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.OmOss {
+    margin-top:5%;
+    padding: 3%;    padding-left: 17%;  padding-right: 17%;
+    width: 100%;    height: auto;
+    background-color: #005F9E;
+    font-size: 20px;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.OmOss .Info{
+    width: 100%;    height: auto;
+    display: flex;  flex-direction: row;
+    padding-top: 4%;
+
+    justify-content: center;
+}
+
+.OmOss .Info .Icons {
+    width: 20%;    height: auto;
+    display: flex;  flex-direction: column;
+    margin-left: 1%; margin-right: 1%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.OmOss .Info .Icons .Icon {
+    width: auto;    height: auto;
+    padding: 20px;  
+    margin-bottom: 3%;  margin-top: 5%;
+
+    background-color: #00A8E8;
+    border-radius: 100%;
+    justify-content: center;
+}
+
+.OmOss .Info .Icons .Icon img{
+    width: 80px;   height: 80px;
+}
+
+.OmOss .Info .Icons .text {
+    width: 100%;    height: 200px;
+    padding: 20px;
+
+    background-color: #00A8E8;
+    border-radius: .4em;
+    align-content: center;
+    font-size: 20px;
+}
+
+.Tjenster {
+    width: 100%;    height: auto;
+    padding: 3%;  padding-left: 17%;    padding-right: 17%;
+    background-color: #005F9E;
+
+    margin-top: 5%;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    background-color: #005F9E;
+}
+
+.Tjenster .boxes {
+    width: 100%;    height: auto;
+    display: flex;  flex-direction: row;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.Tjenster .boxes .box {
+    width: 400px;   height: 200px;
+    margin: 2%;     padding: 2%;
+
+    font-size: 20px;
+
+    text-align: center;
+    align-content: center;
+    background-color: #00A8E8;
+    border-radius: .4em;
+}
+
+.Recensioner {
+    width: 100%;    height: auto;
+    padding-top: 5%;    padding-bottom: 3%;
+    margin-top: 5%;
+
+    display: flex;  flex-direction: column;
+
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #005F9E;
+}
+
+.TextBubble {
+    width: 60%; height: auto;
+    display: flex;  flex-direction: row;
+    margin-bottom: 2%;
+}
+
+.TextBubble .Bubble{
+    width: 100%;    height: auto;
+    display: flex;  flex-direction: row;
+}
+
+.TextBubble .Bubble .Text {
+    position: relative;
+    padding: 20px;  border-radius: .4em;
+    width: 100%;    height: auto;
+
+    align-content: center;
+
+    background-color: #00A8E8;
+}
+
+.TextBubble .Bubble .Arrow {
+    width: 50px;    height: 30px;
+    left: -10px;    position: relative;
+
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+    background-color: #00A8E8;
+}
+
+.TextBubble .User{
+    width: 100px;    height: 100px;
+    padding: 20px;  
+
+    background-color: #00A8E8;
+    border-radius: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.TextBubble .User img{
+    width: 50px;   height: 50px;
+    border-radius: 100%;
+}
+
+.Footer {
+    background-color: #005F9E;
+    width: 100%;    height: auto;
+    margin-top: 5%; padding: 2%;
+
+    display: flex;  flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer .InFooter {
+    width: 300px;    height: 300px;
+    background-color: #00A8E8;
+    border-radius: .4em;
+
+    display: flex;  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer .InFooter img{
+    width: 200px;    height: 200px;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+.filler{
+    margin: 10%;
+}
+
+.Info .priser {
+    width: 80%;    height: auto;
+    display: flex;  flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.Info .priser .pris {
+    width: 100%;    height: 100%;
+    margin-left: 1%;    margin-right: 1%;
+    background-color: #00A8E8;
+    padding: 3%;
+    border-radius: .4em;
+
+    font-size: 15px;
+
+    display: flex;  flex-direction: column;
+    justify-content: top;
+    text-align: left;
+}
+
+.VårTeam {
+    width: 100%;    height: auto;
+    width: 100%;    height: auto;
+    padding-top: 5%;    padding-bottom: 3%;
+    margin-top: 5%;
+
+    display: flex;  flex-direction: column;
+
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #005F9E;
+}
+
+.AnsökJobb {
+    width: 100%;    height: auto;
+    margin-top: 5%;
+    padding: 3%;    padding-left: 17%;  padding-right: 17%;
+    display: flex;  flex-direction: column;
+
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #005F9E;
+}
+
+.UnderFooter {
+    width: 100%;    height: auto;
+    padding-bottom: 3%; padding-right: 3%;
+
+    background: #005F9E;
+    justify-content: right;
+    align-items: right;
+    align-content: right;
+    text-align: right;
+}
+
+.UnderFooter button{
+    width: 60px;   height: 60px;
+    border-radius: .4em;
+
+    background-color: #00A8E8;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
